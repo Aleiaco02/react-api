@@ -1,0 +1,14 @@
+.card-text {
+    font-size: 0.97rem;
+    margin: 15px 0;
+}
+
+.gray {
+    color: gray;
+
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
