@@ -26,7 +26,8 @@ const List = () => {
                 {actors.map((actor) => (
                     <Card
                         key={actor.id}
-                        actors={actor.name}
+                        actors={actor}
+
 
                     />
                 ))}
