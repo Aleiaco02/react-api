@@ -21,14 +21,12 @@ const List = () => {
 
     return (
 
-        <div className="container">
+        <div className="container my-5">
             <div className="row g-5">
                 {actors.map((actor) => (
                     <Card
                         key={actor.id}
                         actors={actor}
-
-
                     />
                 ))}
             </div>
